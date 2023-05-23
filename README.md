@@ -5,4 +5,7 @@ I don't think Engineer A is better than Engineer B just because A is better at s
 can code and talk about algorithms and data structures. So, in my opinion, using ICPC problems in interviews is like 
 using credit scores for loan applications; you don't compare individuals, but rather groups.
 
-In this repository, I keep my solutions to Leetcode problems as I practice from time to time.
+In this repository, I store my solutions to Leetcode problems as I practice them occasionally.
+
+To the memorable summer training camp of 2010! 
+![AMC-ICPC 2010](./acm-icpc-2010.jpg)
