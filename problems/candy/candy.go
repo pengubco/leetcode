@@ -1,5 +1,7 @@
 package candy
 
+// Topological sort
+
 func candy(ratings []int) int {
 	g := buildDAG(ratings)
 	return topologicalSort(g)
