@@ -15,6 +15,7 @@ func Test_hIndex(t *testing.T) {
 		{[]int{1}, 1},
 		{[]int{2}, 1},
 		{[]int{0, 10}, 1},
+		{[]int{1, 1, 10, 10, 10}, 3},
 	}
 
 	for _, d := range cases {

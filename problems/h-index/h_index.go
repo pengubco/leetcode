@@ -1,28 +1,31 @@
 package h_index
 
-import "sort"
-
 /*
-1. Given x, how many papers have citation no less than x?
-2. Then we can binary search the x.
+Observations.
+1. The h-index is not necessarily one of the citation number. e.g. [1, 1, 10, 10, 10]. the h-index is 3.
+2. If there are x citations >= x, then the h-index >= x. This means, the h-index is monotone. We can binary search.
+3. The input size is small, we can iterate it all possible h-index without binary search.
 */
 
 func hIndex(citations []int) int {
 	cnt := make(map[int]int)
-	sort.Ints(citations)
 	n := len(citations)
-	for i := n - 1; i >= 0; i-- {
-		if i+1 < n && citations[i] != citations[i+1] {
-			cnt[citations[i]] = cnt[citations[i+1]]
-		}
-		cnt[citations[i]]++
-	}
-	result := 0
-	// The answer range is small enough, no need to binary search.
-	for k, v := range cnt {
-		if v >= k && k > result {
-			result = k
+	min, max := citations[0], citations[0]
+	for _, v := range citations {
+		cnt[v]++
+		if v < min {
+			min = v
+		} else if v > max {
+			max = v
 		}
 	}
-	return result
+	for i := max - 1; i >= 0; i-- {
+		cnt[i] += cnt[i+1]
+	}
+	for i := n; i > 0; i-- {
+		if cnt[i] >= i {
+			return i
+		}
+	}
+	return 0
 }
