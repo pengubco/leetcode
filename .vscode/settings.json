@@ -1,3 +1,7 @@
 {
-	"go.testFlags": ["-v"],
+	"go.testFlags": [
+		"-v"
+	],
+	"java.configuration.updateBuildConfiguration": "interactive",
+	"java.dependency.syncWithFolderExplorer": false,
 }
