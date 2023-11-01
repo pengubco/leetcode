@@ -4,4 +4,5 @@
 	],
 	"java.configuration.updateBuildConfiguration": "interactive",
 	"java.dependency.syncWithFolderExplorer": false,
+	"java.project.sourcePaths": [""]
 }

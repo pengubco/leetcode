@@ -1,4 +1,4 @@
-I practice them occasionally and this repo contains solutions to Leetcode problems.
+I practice LeetCode from time to time and this repo contains my solutions.
 
 ## Go
 There is a Go module at `solutions/go`. Each problem corresponds to a folder and thus one top-level package of the module. In the folder, there is a source file and test file. For example. 
@@ -22,7 +22,7 @@ In order to verify the solution, run Junit5. For example,
 ```sh
 cd solutions/java/leetcode
 mvn compile
-mvn test
+mvn test -Dtest=fyi.peng.addTwoNumbers 
 ```
 
 ## Some background
