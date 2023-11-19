@@ -67,6 +67,14 @@ public class DoubleLinkList<T> {
     node.prev = node.next = null;
   }
 
+  public Node<T> last() {
+    return tail;
+  }
+
+  public boolean isEmpty() {
+    return head == null;
+  }
+
   public List<T> toList() {
     List<T> result = new ArrayList<>();
     for(Node<T> cur = head; cur != null; cur = cur.next) {
