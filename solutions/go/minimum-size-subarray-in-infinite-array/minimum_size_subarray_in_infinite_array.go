@@ -2,19 +2,6 @@ package minimumsizesubarrayininfinitearray
 
 import "math"
 
-/*
-Any subarray of the infinite array is comprised of three parts.
-1. A suffix of the original array.
-2. A prefix of the original array.
-3. K copies of the original array.
-Each part can be empty.
-
-We can further simplifies by combining part 1 and part 2 to the following.
-A subarray of two copies of the original array.
-a[i:j] + k * total_sum = target. `a` is the original array concatenated to itself.
-
-a[i:j]%total_sum = target%total_sum
-*/
 func minSizeSubarray(nums []int, target int) int {
 	n := len(nums)
 	result := 0

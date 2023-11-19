@@ -3,6 +3,6 @@
 		"-v"
 	],
 	"java.configuration.updateBuildConfiguration": "interactive",
-	"java.dependency.syncWithFolderExplorer": false,
+	"java.dependency.syncWithFolderExplorer": true,
 	"java.project.sourcePaths": [""]
 }
