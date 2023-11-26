@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+// https://leetcode.com/problems/lfu-cache/
+
 public class LFUCache {
 
   Map<Integer, Node<Data>> m;

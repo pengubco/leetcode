@@ -12,12 +12,8 @@ If we know `k`, then the problem is simple: find a minimum subarray with a fixed
 
 Can we say k is as large as possible? that is, `k=target/total_sum`? 
 
-Yes. This is because all numbers are positive, the smallest subarray whose sum is 
+Yes. This is because all numbers are positive, the shortest subarray whose sum is 
 total_sum must include each number once and no more than once. 
 To make it more clear, by repeating an array, A, to itself multiple times. 
 A[i] and A[j] where A[j] is the i-th number in a repeating array, then 
 `j-i = k*n`, where `k>1`.
-
-## Solutions
-- [Go](../go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go)
-- [Java](../java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)

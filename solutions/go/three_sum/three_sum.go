@@ -4,6 +4,8 @@ import (
 	"sort"
 )
 
+// https://leetcode.com/problems/3sum/description
+
 func threeSum(nums []int) [][]int {
 	var results [][]int
 	n := len(nums)

@@ -1,5 +1,7 @@
 package searcha2dmatrix
 
+// https://leetcode.com/problems/search-a-2d-matrix
+
 func searchMatrix(matrix [][]int, target int) bool {
 	r, c := len(matrix), len(matrix[0])
 	tranlate := func(idx int) int {

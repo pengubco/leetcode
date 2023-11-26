@@ -2,6 +2,8 @@ package lfu_cache
 
 import "container/list"
 
+// https://leetcode.com/problems/lfu-cache/
+
 type LFUCache struct {
 	cap       int
 	freqHeads map[int]*list.Element
