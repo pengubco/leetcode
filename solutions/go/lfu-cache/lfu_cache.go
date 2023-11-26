@@ -2,11 +2,6 @@ package lfu_cache
 
 import "container/list"
 
-/*
-1. Like the LRU, we use a double linked list(DLL) to move recent node to HEAD and evict the TAIL.
-2. Unlike the LRU, we move the recent node to the virtual HEAD where all nodes of the frequency begins.
-*/
-
 type LFUCache struct {
 	cap       int
 	freqHeads map[int]*list.Element
