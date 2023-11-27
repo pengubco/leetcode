@@ -13,7 +13,8 @@
 |[15. 3Sum](https://leetcode.com/problems/3sum/description/)|[15-3sum.md](solutions/explainations/15-3sum.md)|[three_sum.go](./solutions/go/three_sum/three_sum.go)||
 |[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)||[search_a_2d_matrix.go](solutions/go/search-a-2d-matrix/search_a_2d_matrix.go)||
 |[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|[240-search-a-2d-matrix-ii.md](solutions/explainations/240-search-a-2d-matrix-ii.md)|[search_a_2d_matrix_ii.go](solutions/go/search-a-2d-matrix-ii/search_a_2d_matrix_ii.go)||
-|[968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|||
+|[450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|||
+|[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)||[insert-into-a-binary-search-tree.go](solutions/go/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.go)|
 |[2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|[2875-minimum-size-subarray-in-infinite-array.md](solutions/explainations/2875-minimum-size-subarray-in-infinite-array.md)|[minimum_size_subarray_in_infinite_array.go](solutions/go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go)|[Solution.java](solutions/java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)|
 
 # Easy
@@ -21,4 +22,6 @@
 |--|--|--|
 |[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[integer_to_roman.go](solutions/go/integer-to-roman/integer_to_roman.go)|
 |[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)||
+|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[maximum-depth-of-binary-tree.go](solutions/go/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go)||
+|[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[balanced-binary-tree.go](solutions/go/balanced-binary-tree/balanced-binary-tree.go)||
 |[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[continuous_subarray_sum.go](solutions/go/continuous-subarray-sum/continuous_subarray_sum.go)||
