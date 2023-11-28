@@ -1,20 +1,38 @@
 package longestrepeatingcharacterreplacement
 
-/*
-If we know the repeating character is 'A', then this question is the same as
-https://leetcode.com/problems/max-consecutive-ones-iii/description/
-*/
+// https://leetcode.com/problems/longest-repeating-character-replacement/
+
 func characterReplacement(s string, k int) int {
 	n := len(s)
-	// 2-d map: sumMap[c][i]: count of c in s[:i+1]
-	sumMap := make(map[byte]map[int]int)
-	for i := 0; i < n; i++ {
-		c := s[i]
-		sum, ok := sumMap[c]
-		if !ok {
-			sum = make(map[int]int)
-			sumMap[c] = sum
+	sumMap := make(map[byte]int)
+	maxValueOfMap := func() int {
+		result := 0
+		for _, v := range sumMap {
+			if v > result {
+				result = v
+			}
 		}
-		sum[i] = sum[i-1] + 1
+		return result
 	}
+
+	result := 0
+	lastJ := -1
+	for i, j := 0, 0; i < n && j < n; {
+		for ; j < n; j++ {
+			if j > lastJ {
+				sumMap[s[j]]++
+				lastJ = j
+			}
+			if (j-i+1)-maxValueOfMap() > k {
+				break
+			}
+			cnt := j - i + 1
+			if cnt > result {
+				result = cnt
+			}
+		}
+		sumMap[s[i]]--
+		i++
+	}
+	return result
 }
