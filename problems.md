@@ -18,7 +18,7 @@
 |[450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|||
 |[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)||[insert-into-a-binary-search-tree.go](solutions/go/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.go)|
 |[978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray)||[longest-turbulent-subarray.go](solutions/go/longest-turbulent-subarray/longest-turbulent-subarray.go)||
-|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)||[]()||
+|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)|[979-distribute-coins-in-binary-tree.md](solutions/explainations/979-distribute-coins-in-binary-tree.md)|[distribute-coins-in-binary-tree.go](solutions/go/distribute-coins-in-binary-tree/distribute-coins-in-binary-tree.go)||
 |[1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)||[max-consecutive-ones-iii.go](solutions/go/max-consecutive-ones-iii/max-consecutive-ones-iii.go)||
 |[2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|[2875-minimum-size-subarray-in-infinite-array.md](solutions/explainations/2875-minimum-size-subarray-in-infinite-array.md)|[minimum_size_subarray_in_infinite_array.go](solutions/go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go)|[Solution.java](solutions/java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)|
 
