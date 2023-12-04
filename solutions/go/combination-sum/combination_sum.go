@@ -4,6 +4,8 @@ import (
 	"sort"
 )
 
+// https://leetcode.com/problems/combination-sum
+
 func combinationSum(candidates []int, target int) [][]int {
 	// Deduplicate and sort candidate in ascending order. It has two advantages:
 	// 1. speed up the DFS.

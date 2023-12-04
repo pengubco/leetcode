@@ -2,6 +2,8 @@ package numberofgoodpaths
 
 import "sort"
 
+// https://leetcode.com/problems/number-of-good-paths
+
 /*
 If there are X nodes with value M in one subtree, and there are Y node with value M in
 another subtree. All nodes are smaller than or equal to M.

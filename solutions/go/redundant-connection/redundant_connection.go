@@ -1,5 +1,7 @@
 package redundantconnection
 
+// https://leetcode.com/problems/redundant-connection/
+
 func findRedundantConnection(edges [][]int) []int {
 	n := len(edges)
 	uf := NewUnionFind(n + 1)

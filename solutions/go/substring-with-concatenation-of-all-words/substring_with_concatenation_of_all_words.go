@@ -1,5 +1,7 @@
 package substring_with_concatenation_of_all_words
 
+// https://leetcode.com/problems/substring-with-concatenation-of-all-words
+
 /*
 Because all words are of same length, we can have a function.
 f(i)=j such that, s[i,...,i+m] = words[j].

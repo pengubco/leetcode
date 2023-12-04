@@ -1,5 +1,7 @@
 package longestpalindromicsubstring
 
+// https://leetcode.com/problems/longest-palindromic-substring/
+
 /*
 f[i,j]: is s[i...j] a palindromic substring?
 f[i,i] = 1

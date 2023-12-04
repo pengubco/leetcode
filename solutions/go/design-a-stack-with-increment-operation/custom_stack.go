@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/design-a-stack-with-increment-operation/
+
 /*
 key observations.
 1. always access the slice from the end.

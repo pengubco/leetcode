@@ -1,5 +1,7 @@
 package longestcycleinagraph
 
+// https://leetcode.com/problems/longest-cycle-in-a-graph/
+
 /*
 Observations:
 1. Each node has no outgoing edge or one outgoing edge. If a node has no outgoing edge,

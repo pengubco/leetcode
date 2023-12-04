@@ -1,5 +1,7 @@
 package maximumemployeestobeinvitedtoameeting
 
+// https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/
+
 /*
 1. each node has exactly one favorite. a->b. a favorite is b. so there are n directed edges.
 2. "sitting at a table" can have two cases.

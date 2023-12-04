@@ -1,5 +1,7 @@
 package candy
 
+// https://leetcode.com/problems/candy
+
 // Topological sort
 
 func candy(ratings []int) int {
@@ -12,9 +14,6 @@ func candy(ratings []int) int {
 func buildDAG(ratings []int) map[int][]int {
 	n := len(ratings)
 	g := make(map[int][]int, n)
-	for i := 0; i < n; i++ {
-		g[i] = []int{}
-	}
 	for i := 0; i < n-1; i++ {
 		if ratings[i] < ratings[i+1] {
 			g[i] = append(g[i], i+1)
@@ -29,13 +28,7 @@ func topologicalSort(g map[int][]int) int {
 	n := len(g)
 	// number of incoming edges to a node.
 	inDegree := make(map[int]int, n)
-	for i := 0; i < n; i++ {
-		inDegree[i] = 0
-	}
 	for _, l := range g {
-		if len(l) == 0 {
-			continue
-		}
 		for _, v := range l {
 			inDegree[v]++
 		}

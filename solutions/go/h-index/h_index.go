@@ -1,5 +1,7 @@
 package h_index
 
+// https://leetcode.com/problems/h-index
+
 /*
 Observations.
 1. The h-index is not necessarily one of the citation number. e.g. [1, 1, 10, 10, 10]. the h-index is 3.

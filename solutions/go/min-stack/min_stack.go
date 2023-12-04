@@ -1,5 +1,7 @@
 package min_stack
 
+// https://leetcode.com/problems/min-stack
+
 /*
 Key observation: A stack always pops at the end. So the minimum of a stack is essentially "find the minimum from the first
 k elements of an array".

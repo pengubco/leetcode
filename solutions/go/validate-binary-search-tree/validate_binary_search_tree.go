@@ -1,5 +1,7 @@
 package validate_binary_search_tree
 
+// https://leetcode.com/problems/validate-binary-search-tree/
+
 import "math"
 
 func isValidBST(root *TreeNode) bool {

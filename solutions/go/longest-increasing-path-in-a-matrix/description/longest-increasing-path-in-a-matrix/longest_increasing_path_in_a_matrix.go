@@ -1,5 +1,7 @@
 package longestincreasingpathinamatrix
 
+// https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+
 /*
 1. no need to be worried about visiting a node twice in a path, because it requires increasing.
 */

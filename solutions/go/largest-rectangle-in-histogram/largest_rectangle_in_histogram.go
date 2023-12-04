@@ -2,6 +2,8 @@ package largestrectangleinhistogram
 
 import "errors"
 
+// https://leetcode.com/problems/largest-rectangle-in-histogram/
+
 /*
 f[i]: the max area if heights[i] is the highest bar.
 then answer is max{f[i]}.

@@ -1,6 +1,34 @@
 package wordbreak
 
+// Solution 1. DFS + Trie
+// Solution 2. DP + Hash
 func wordBreak(s string, wordDict []string) bool {
+	m := make(map[string]bool)
+	for _, w := range wordDict {
+		m[w] = true
+	}
+	n := len(s)
+	f := make([]bool, n)
+	for i := 0; i < n; i++ {
+		for k := range m {
+			if f[i] {
+				break
+			}
+			j := i - len(k) + 1
+			if j == 0 {
+				f[i] = m[s[j:i+1]]
+				continue
+			}
+			if j < 0 || f[j-1] == false || m[s[j:i+1]] == false {
+				continue
+			}
+			f[i] = true
+		}
+	}
+	return f[n-1]
+}
+
+func wordBreakV1(s string, wordDict []string) bool {
 	root := &TrieNode{}
 	for _, s := range wordDict {
 		AddToTrie(root, s)

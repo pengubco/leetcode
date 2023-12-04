@@ -1,38 +1,32 @@
 package lowest_common_ancestor_of_a_binary_tree
 
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
+
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
-	_, _, lcaNode := dfs(root, p, q)
+	_, lcaNode := dfs(root, p, q)
 	return lcaNode
 }
 
-// returns a triple.
-// is P in the subtree rooted at curr
-// is Q in the subtree rooted at curr
-// what is the LCA of p and q. nil if LCA is not in the subtree rooted at curr.
-func dfs(curr, p, q *TreeNode) (bool, bool, *TreeNode) {
-	leftP, leftQ := false, false
-	var leftLCA *TreeNode
-	if curr.Left != nil {
-		leftP, leftQ, leftLCA = dfs(curr.Left, p, q)
+func dfs(cur, p, q *TreeNode) (int, *TreeNode) {
+	if cur == nil {
+		return 0, nil
 	}
-	rightP, rightQ := false, false
-	var rightLCA *TreeNode
-	if curr.Right != nil {
-		rightP, rightQ, rightLCA = dfs(curr.Right, p, q)
+	cnt1, node1 := dfs(cur.Left, p, q)
+	if cnt1 == 2 {
+		return 2, node1
 	}
-	if leftLCA != nil {
-		return true, true, leftLCA
+	cnt2, node2 := dfs(cur.Right, p, q)
+	if cnt2 == 2 {
+		return 2, node2
 	}
-	if rightLCA != nil {
-		return true, true, rightLCA
+	cnt := cnt1 + cnt2
+	if cur == p || cur == q {
+		cnt++
 	}
-	foundP := leftP || rightP || curr == p
-	foundQ := leftQ || rightQ || curr == q
-	var lcaNode *TreeNode
-	if foundP && foundQ {
-		lcaNode = curr
+	if cnt == 2 {
+		return 2, cur
 	}
-	return foundP, foundQ, lcaNode
+	return cnt, nil
 }
 
 type TreeNode struct {

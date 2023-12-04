@@ -2,6 +2,8 @@ package mergeintervals
 
 import "sort"
 
+// https://leetcode.com/problems/merge-intervals
+
 /*
 line scanning from left to right.
 */

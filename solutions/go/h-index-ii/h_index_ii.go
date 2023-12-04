@@ -1,5 +1,7 @@
 package h_index_ii
 
+// https://leetcode.com/problems/h-index-ii/
+
 /*
 Same idea with the "H Index". However, the size is bigger and we need to use binary search.
 */

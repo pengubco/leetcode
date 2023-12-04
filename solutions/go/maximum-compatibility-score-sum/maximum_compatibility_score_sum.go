@@ -1,5 +1,7 @@
 package maximumcompatibilityscoresum
 
+// https://leetcode.com/problems/maximum-compatibility-score-sum/
+
 func maxCompatibilitySum(students [][]int, mentors [][]int) int {
 	m := len(students)
 	scores := make([][]int, m)

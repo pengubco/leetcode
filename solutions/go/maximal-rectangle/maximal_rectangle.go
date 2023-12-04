@@ -1,5 +1,7 @@
 package maximalrectangle
 
+// https://leetcode.com/problems/maximal-rectangle
+
 import (
 	"errors"
 )

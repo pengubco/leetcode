@@ -1,6 +1,29 @@
 package binary_tree_right_side_view
 
+// https://leetcode.com/problems/binary-tree-right-side-view/
+
 func rightSideView(root *TreeNode) []int {
+	mapView := make(map[int]int)
+	dfs(root, 0, mapView)
+	view := make([]int, len(mapView))
+	for k, v := range mapView {
+		view[k] = v
+	}
+	return view
+}
+
+func dfs(cur *TreeNode, depth int, view map[int]int) {
+	if cur == nil {
+		return
+	}
+	if _, ok := view[depth]; !ok {
+		view[depth] = cur.Val
+	}
+	dfs(cur.Right, depth+1, view)
+	dfs(cur.Left, depth+1, view)
+}
+
+func rightSideViewBFS(root *TreeNode) []int {
 	if root == nil {
 		return nil
 	}

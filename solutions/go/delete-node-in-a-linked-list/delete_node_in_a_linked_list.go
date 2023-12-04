@@ -1,5 +1,7 @@
 package delete_node_in_a_linked_list
 
+// https://leetcode.com/problems/delete-node-in-a-linked-list/
+
 type ListNode struct {
 	Val  int
 	Next *ListNode

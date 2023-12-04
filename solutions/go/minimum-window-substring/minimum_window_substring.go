@@ -1,5 +1,7 @@
 package minimum_window_substring
 
+// https://leetcode.com/problems/minimum-window-substring
+
 /*
 Define f(i,j) := whether s[i...j] contains all characters from t.
 Then f(i,j) can be transitioned from f(i-1, j) and f(i, j+1).

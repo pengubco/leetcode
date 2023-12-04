@@ -1,5 +1,7 @@
 package container_with_most_water
 
+// https://leetcode.com/problems/container-with-most-water
+
 /*
 Approach 1: Binary search. O(N*logN)
 Observations: Assume the shorter bar is a[i], then the other bar a[j] should satisfy.

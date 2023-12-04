@@ -1,5 +1,7 @@
 package kthancestorofatreenode
 
+// https://leetcode.com/problems/kth-ancestor-of-a-tree-node/
+
 type TreeAncestor struct {
 	log2 []int
 

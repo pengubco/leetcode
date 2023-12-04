@@ -1,5 +1,7 @@
 package trapping_rain_water
 
+// https://leetcode.com/problems/trapping-rain-water
+
 /*
 For the i-th location a[i], the water it can trap is max(0, min(l[i-1], r[i+1]) - a[i]).
 l[i-1]: maximum value from a[0, ..., i-1].

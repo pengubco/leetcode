@@ -2,6 +2,8 @@ package shortestcycleinagraph
 
 import "math"
 
+// https://leetcode.com/problems/shortest-cycle-in-a-graph/
+
 /*
 1. If there are n nodes that have edges, but number of edges is smaller than n, then there is no cycle.
 2. How to find the length of a cycle? A cycle is a path plus an edge connecting the start and end of the path.

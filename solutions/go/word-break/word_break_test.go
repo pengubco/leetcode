@@ -13,8 +13,8 @@ func TestWordBreak(t *testing.T) {
 		expected bool
 	}{
 		{"leetcode", []string{"leet", "code"}, true},
-		// {"applepenapple", []string{"apple", "pen"}, true},
-		// {"catsandog", []string{"cats", "dog", "sand", "and", "cat"}, false},
+		{"applepenapple", []string{"apple", "pen"}, true},
+		{"catsandog", []string{"cats", "dog", "sand", "and", "cat"}, false},
 	}
 
 	for _, tc := range cases {

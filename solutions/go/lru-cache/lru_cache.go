@@ -2,6 +2,8 @@ package lru_cache
 
 import "container/list"
 
+// https://leetcode.com/problems/lru-cache
+
 /*
 Use a double linked list to keep keys in last accessed time. On every operation, move the key to the head. Then the
 LRU is tail of the list.

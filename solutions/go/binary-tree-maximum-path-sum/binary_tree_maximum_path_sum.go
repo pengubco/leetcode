@@ -2,6 +2,8 @@ package binary_tree_maximum_path_sum
 
 import "math"
 
+// https://leetcode.com/problems/binary-tree-maximum-path-sum
+
 /*
 There are three types of nodes for a path: 1). internal node of the path; 2). end node of the path; 3). not in the path.
 Define following 3 functions.

@@ -2,6 +2,8 @@ package insert_delete_getrandom_o1
 
 import "math/rand"
 
+// https://leetcode.com/problems/insert-delete-getrandom-o1
+
 /*
 In order to use getRandom, we need to store all numbers in an array. But how dow e insert and remove from an array
 in O(1)? We insert and remove at the end.

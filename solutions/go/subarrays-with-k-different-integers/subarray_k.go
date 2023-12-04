@@ -1,5 +1,7 @@
 package subarray_k
 
+// https://leetcode.com/problems/subarrays-with-k-different-integers/
+
 /*
 f[j]: number of subarrays that ends at a[j] with at most k different integers.
 f[j] = j-i+1. where a[i...j] is the longest subarray that ends with a[j] has at most k different integers.

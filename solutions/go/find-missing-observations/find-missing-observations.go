@@ -1,5 +1,7 @@
 package find_missing_observations
 
+// https://leetcode.com/problems/find-missing-observations
+
 /*
 The problem is equivalent to: Find n integers, each from 1 to 6, so that the sum of the n integer is X.
 

@@ -1,5 +1,7 @@
 package furthestbuildingyoucanreach
 
+// https://leetcode.com/problems/furthest-building-you-can-reach/
+
 import "container/heap"
 
 func furthestBuilding(heights []int, bricks int, ladders int) int {
@@ -13,18 +15,12 @@ func furthestBuilding(heights []int, bricks int, ladders int) int {
 			continue
 		}
 
-		// if no ladder left
 		if ladders == 0 {
 			if bricks >= d {
 				bricks -= d
 				continue
 			}
 			break
-		}
-
-		// if no bricks
-		if bricks == 0 {
-
 		}
 
 		if len(h) < ladders {

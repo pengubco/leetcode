@@ -2,6 +2,8 @@ package minimum_number_of_arrows_to_burst_balloons
 
 import "sort"
 
+// https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
+
 /*
 1. If an optimal arrow shoot at x and x is not an end of any interval, then we can always move line left or right to the end
 of a point maintaining the optimal solution.

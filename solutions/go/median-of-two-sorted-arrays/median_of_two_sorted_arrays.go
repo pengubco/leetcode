@@ -2,6 +2,7 @@ package medianoftwosortedarrays
 
 import "math"
 
+// https://leetcode.com/problems/median-of-two-sorted-arrays
 /*
 General: find the k-th number of 2 sorted arrays.
 

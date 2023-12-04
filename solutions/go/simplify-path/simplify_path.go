@@ -2,6 +2,8 @@ package simplify_path
 
 import "strings"
 
+// https://leetcode.com/problems/simplify-path/
+
 func simplifyPath(path string) string {
 	if len(path) == 1 {
 		return path
