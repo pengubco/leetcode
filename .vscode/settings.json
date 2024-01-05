@@ -1,8 +1,0 @@
-{
-	"go.testFlags": [
-		"-v"
-	],
-	"java.configuration.updateBuildConfiguration": "interactive",
-	"java.dependency.syncWithFolderExplorer": true,
-	"java.project.sourcePaths": [""]
-}

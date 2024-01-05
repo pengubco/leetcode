@@ -75,6 +75,7 @@
 # Easy
 |problem|Go|Java|
 |--|--|--|
+|[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[interval-list-intersections.go](solutions/go/interval-list-intersections/interval-list-intersections.go)||
 |[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[add_two_numbers.go](solutions/go/add-two-numbers/add_two_numbers.go)|||
 |[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[integer_to_roman.go](solutions/go/integer-to-roman/integer_to_roman.go)|
 |[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)||
@@ -87,4 +88,5 @@
 |[274. H-Index](https://leetcode.com/problems/h-index)|[h_index.go](solutions/go/h-index/h_index.go)||
 |[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[continuous_subarray_sum.go](solutions/go/continuous-subarray-sum/continuous_subarray_sum.go)||
 |[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[subarray_sum_equals_k.go](solutions/go/subarray-sum-equals-k/subarray_sum_equals_k.go)||
+|[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|[number-of-operations-to-make-network-connected.go](solutions/go/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)||
 |[2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations)||[find-missing-observations.go](solutions/go/find-missing-observations/find-missing-observations.go)||
