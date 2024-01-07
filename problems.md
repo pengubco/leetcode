@@ -12,6 +12,7 @@
 |[460. LFU Cache](https://leetcode.com/problems/lfu-cache)|[explanation](solutions/explainations/460-lfu-cache.md)|[lfu_cache.go](solutions/go/lfu-cache/lfu_cache.go)|[LFUCache.java](solutions/java/leetcode/src/main/java/fyi/peng/lfuCache/LFUCache.java)|
 |[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)||[sliding-window-median.go](solutions/go/sliding-window-median/sliding-window-median.go)||
 |[834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)||[sum-of-distances-in-tree.go](solutions/go/sum-of-distances-in-tree/sum-of-distances-in-tree.go)|
+|[857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)||[minimum-cost-to-hire-k-workers.go](solutions/go/minimum-cost-to-hire-k-workers/minimum-cost-to-hire-k-workers.go)||
 |[968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[968-binary-tree-cameras.md](solutions/explainations/968-binary-tree-cameras.md)|[binary-tree-cameras.go](solutions/go/binary-tree-cameras/binary-tree-cameras.go)||
 |[992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)||[subarray_k.go](solutions/go/subarrays-with-k-different-integers/subarray_k.go)||
 |[1483. Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)||[kth_ancestor_of_a_tree_node.go](solutions/go/kth-ancestor-of-a-tree-node/kth_ancestor_of_a_tree_node.go)||
