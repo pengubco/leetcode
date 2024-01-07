@@ -10,7 +10,7 @@
 |[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)||[longest_increasing_path_in_a_matrix.go](solutions/go/longest-increasing-path-in-a-matrix/description/longest-increasing-path-in-a-matrix/longest_increasing_path_in_a_matrix.go)||
 |[432. All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure)|[]()|[]()|
 |[460. LFU Cache](https://leetcode.com/problems/lfu-cache)|[explanation](solutions/explainations/460-lfu-cache.md)|[lfu_cache.go](solutions/go/lfu-cache/lfu_cache.go)|[LFUCache.java](solutions/java/leetcode/src/main/java/fyi/peng/lfuCache/LFUCache.java)|
-|[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)|||
+|[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)||[sliding-window-median.go](solutions/go/sliding-window-median/sliding-window-median.go)||
 |[834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)||[sum-of-distances-in-tree.go](solutions/go/sum-of-distances-in-tree/sum-of-distances-in-tree.go)|
 |[968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[968-binary-tree-cameras.md](solutions/explainations/968-binary-tree-cameras.md)|[binary-tree-cameras.go](solutions/go/binary-tree-cameras/binary-tree-cameras.go)||
 |[992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)||[subarray_k.go](solutions/go/subarrays-with-k-different-integers/subarray_k.go)||
@@ -34,6 +34,7 @@
 |[32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)||[longest_valid_parentheses.go](solutions/go/longest-valid-parentheses/longest_valid_parentheses.go)|||
 |[39. Combination Sum](https://leetcode.com/problems/combination-sum)||[combination_sum.go](solutions/go/combination-sum/combination_sum.go)||
 |[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)||[trapping_rain_water.go](solutions/go/trapping-rain-water/trapping_rain_water.go)||
+|[46. Permutations](https://leetcode.com/problems/permutations/)||[permutations.go](solutions/go/permutations/permutations.go)||
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals)||[merge_intervals.go](solutions/go/merge-intervals/merge_intervals.go)||
 |[57. Insert Interval](https://leetcode.com/problems/insert-interval/)|[]()|[insert-interval.go](solutions/go/insert-interval/insert-interval.go)|
 |[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)||[search_a_2d_matrix.go](solutions/go/search-a-2d-matrix/search_a_2d_matrix.go)||
