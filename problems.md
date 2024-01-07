@@ -91,3 +91,4 @@
 |[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[subarray_sum_equals_k.go](solutions/go/subarray-sum-equals-k/subarray_sum_equals_k.go)||
 |[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|[number-of-operations-to-make-network-connected.go](solutions/go/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)||
 |[2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations)||[find-missing-observations.go](solutions/go/find-missing-observations/find-missing-observations.go)||
+|[2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[maximum-matching-of-players-with-trainers.go](solutions/go/maximum-matching-of-players-with-trainers/maximum-matching-of-players-with-trainers.go)||
