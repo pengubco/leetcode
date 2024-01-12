@@ -50,6 +50,8 @@
 |[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)||[search_a_2d_matrix.go](solutions/go/search-a-2d-matrix/search_a_2d_matrix.go)||
 |[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)||[minimum_window_substring.go](solutions/go/minimum-window-substring/minimum_window_substring.go)||
 |[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)||[validate_binary_search_tree.go](solutions/go/validate-binary-search-tree/validate_binary_search_tree.go)|
+|[116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)||[populating-next-right-pointers-in-each-node.go](solutions/go/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.go)||
+|[117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)||[populating-next-right-pointers-in-each-node-ii.go](solutions/go/populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.go)||
 |[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)||[best_time_to_buy_and_sell_stock_ii.go](solutions/go/best-time-to-buy-and-sell-stock-ii/best_time_to_buy_and_sell_stock_ii.go)||
 |[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)||[binary_tree_maximum_path_sum.go](solutions/go/binary-tree-maximum-path-sum/binary_tree_maximum_path_sum.go)||
 |[129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)||[sum_root_to_leaf_numbers.go](solutions/go/sum-root-to-leaf-numbers/sum_root_to_leaf_numbers.go)||
