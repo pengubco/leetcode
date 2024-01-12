@@ -31,6 +31,7 @@
 |[2127. Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)||[maximum-employees_to_be_invited_to_a_meeting.go](solutions/go/maximum-employees-to-be-invited-to-a-meeting/maximum-employees_to_be_invited_to_a_meeting.go)||
 |[2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)||[longest_cycle_in_a_graph.go](solutions/go/longest-cycle-in-a-graph/longest_cycle_in_a_graph.go)||
 |[2421. Number of Good Paths](https://leetcode.com/problems/number-of-good-paths)||[number_of_good_paths.go](solutions/go/number-of-good-paths/number_of_good_paths.go)||
+|[2509. Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree)||[cycle-length-queries-in-a-tree.go](solutions/go/cycle-length-queries-in-a-tree/cycle-length-queries-in-a-tree.go)||
 
 ## Medium
 |problem|Explanation|Go|Java|
