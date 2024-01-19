@@ -72,6 +72,7 @@
 |[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)||[sum_of_two_integers.go](solutions/go/sum-of-two-integers/sum_of_two_integers.go)||
 |[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)||[insert_delete_getrandom_o1.go](solutions/go/insert-delete-getrandom-o1/insert_delete_getrandom_o1.go)||
 |[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||[longest-repeating-character-replacement.go](solutions/go/longest-repeating-character-replacement/longest-repeating-character-replacement.go)|
+|[437. Path Sum III](https://leetcode.com/problems/path-sum-iii)|[437-path-sum-iii.md](solutions/explainations/437-path-sum-iii.md)|[path-sum-iii.go](solutions/go/path-sum-iii/path-sum-iii.go)||
 |[450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|||
 |[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)||[minimum_number_of_arrows_to_burst_balloons.go](solutions/go/minimum-number-of-arrows-to-burst-balloons/minimum_number_of_arrows_to_burst_balloons.go)||
 |[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)||[redundant_connection.go](solutions/go/redundant-connection/redundant_connection.go)||
