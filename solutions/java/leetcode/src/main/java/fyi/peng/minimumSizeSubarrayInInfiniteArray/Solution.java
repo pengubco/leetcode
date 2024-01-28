@@ -1,4 +1,4 @@
-package fyi.peng.minimumSizeSubarrayInInfiniteArry;
+package fyi.peng.minimumSizeSubarrayInInfiniteArray;
 
 import java.util.Arrays;
 import java.util.HashMap;
