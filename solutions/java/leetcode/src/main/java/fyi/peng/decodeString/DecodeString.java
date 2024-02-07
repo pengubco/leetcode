@@ -1,5 +1,6 @@
 package fyi.peng.decodeString;
 
+// https://leetcode.com/problems/decode-string
 public class DecodeString {
 	public String decodeString(String s) {
 		StringBuilder sb = new StringBuilder();
