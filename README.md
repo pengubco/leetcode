@@ -52,6 +52,7 @@
 |[57. Insert Interval](https://leetcode.com/problems/insert-interval/)|[]()|[insert-interval.go](solutions/go/insert-interval/insert-interval.go)|
 |[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)||[search_a_2d_matrix.go](solutions/go/search-a-2d-matrix/search_a_2d_matrix.go)||
 |[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)||[minimum_window_substring.go](solutions/go/minimum-window-substring/minimum_window_substring.go)||
+|[77. Combinations](https://leetcode.com/problems/combinations)||[combinations.go](solutions/go/combinations/combinations.go)||
 |[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)||[validate_binary_search_tree.go](solutions/go/validate-binary-search-tree/validate_binary_search_tree.go)|
 |[116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)||[populating-next-right-pointers-in-each-node.go](solutions/go/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.go)||
 |[117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)||[populating-next-right-pointers-in-each-node-ii.go](solutions/go/populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.go)||
