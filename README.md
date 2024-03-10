@@ -45,6 +45,7 @@
 |[30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)||[substring_with_concatenation_of_all_words.go](solutions/go/substring-with-concatenation-of-all-words/substring_with_concatenation_of_all_words.go)||
 |[32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)||[longest_valid_parentheses.go](solutions/go/longest-valid-parentheses/longest_valid_parentheses.go)|||
 |[39. Combination Sum](https://leetcode.com/problems/combination-sum)||[combination_sum.go](solutions/go/combination-sum/combination_sum.go)||
+|[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii)||[combination-sum-ii.go](solutions/go/combination-sum-ii/combination-sum-ii.go)||
 |[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)||[trapping_rain_water.go](solutions/go/trapping-rain-water/trapping_rain_water.go)||
 |[46. Permutations](https://leetcode.com/problems/permutations/)||[permutations.go](solutions/go/permutations/permutations.go)||
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals)||[merge_intervals.go](solutions/go/merge-intervals/merge_intervals.go)||
