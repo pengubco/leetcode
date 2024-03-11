@@ -74,6 +74,7 @@
 |[275. H-Index II](https://leetcode.com/problems/h-index-ii)||[h_index_ii.go](solutions/go/h-index-ii/h_index_ii.go)||
 |[331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|||[VerifyPreorderSerializationOfABinaryTree.java](solutions/java/leetcode/src/main/java/fyi/peng/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.java)|
 |[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)||[sum_of_two_integers.go](solutions/go/sum-of-two-integers/sum_of_two_integers.go)||
+|[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)||[combination-sum-iv.go](solutions/go/combination-sum-iv/combination-sum-iv.go)|
 |[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)||[insert_delete_getrandom_o1.go](solutions/go/insert-delete-getrandom-o1/insert_delete_getrandom_o1.go)||
 |[394. Decode String](https://leetcode.com/problems/decode-string)|||[DecodeString.java](solutions/java/leetcode/src/main/java/fyi/peng/decodeString/DecodeString.java)|
 |[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||[longest-repeating-character-replacement.go](solutions/go/longest-repeating-character-replacement/longest-repeating-character-replacement.go)|
