@@ -99,22 +99,23 @@
 ## Easy
 |problem|Go|Java|
 |--|--|--|
-|[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[interval-list-intersections.go](solutions/go/interval-list-intersections/interval-list-intersections.go)||
 |[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[add_two_numbers.go](solutions/go/add-two-numbers/add_two_numbers.go)|||
 |[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[integer_to_roman.go](solutions/go/integer-to-roman/integer_to_roman.go)|
 |[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)||
-|[71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)||[simplify_path.go](solutions/go/simplify-path/simplify_path.go)|
+|[71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[simplify_path.go](solutions/go/simplify-path/simplify_path.go)|
 |[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[maximum-depth-of-binary-tree.go](solutions/go/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go)||
 |[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[balanced-binary-tree.go](solutions/go/balanced-binary-tree/balanced-binary-tree.go)||
-|[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)||[evaluate_reverse_polish_notation.go](solutions/go/evaluate-reverse-polish-notation/evaluate_reverse_polish_notation.go)||
-|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)||[kth_smallest_element_in_a_bst.go](solutions/go/kth-smallest-element-in-a-bst/kth_smallest_element_in_a_bst.go)||
-|[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)||[delete_node_in_a_linked_list.go](solutions/go/delete-node-in-a-linked-list/delete_node_in_a_linked_list.go)|
+|[113. Path Sum II](https://leetcode.com/problems/path-sum-ii)|[path-sum-ii.go](solutions/go/path-sum-ii/path-sum-ii.go)||
+|[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[evaluate_reverse_polish_notation.go](solutions/go/evaluate-reverse-polish-notation/evaluate_reverse_polish_notation.go)||
+|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[kth_smallest_element_in_a_bst.go](solutions/go/kth-smallest-element-in-a-bst/kth_smallest_element_in_a_bst.go)||
+|[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[delete_node_in_a_linked_list.go](solutions/go/delete-node-in-a-linked-list/delete_node_in_a_linked_list.go)|
 |[274. H-Index](https://leetcode.com/problems/h-index)|[h_index.go](solutions/go/h-index/h_index.go)||
-|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)||[]()||
+|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[]()||
 |[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[continuous_subarray_sum.go](solutions/go/continuous-subarray-sum/continuous_subarray_sum.go)||
 |[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[subarray_sum_equals_k.go](solutions/go/subarray-sum-equals-k/subarray_sum_equals_k.go)||
+|[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[interval-list-intersections.go](solutions/go/interval-list-intersections/interval-list-intersections.go)||
 |[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|[number-of-operations-to-make-network-connected.go](solutions/go/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)||
-|[2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations)||[find-missing-observations.go](solutions/go/find-missing-observations/find-missing-observations.go)||
+|[2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations)|[find-missing-observations.go](solutions/go/find-missing-observations/find-missing-observations.go)||
 |[2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[maximum-matching-of-players-with-trainers.go](solutions/go/maximum-matching-of-players-with-trainers/maximum-matching-of-players-with-trainers.go)||
 
 # How to run code?

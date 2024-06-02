@@ -9,8 +9,8 @@ package maximum_gap
 The two approaches above sort the input. Is there a way that does not sort the input and can get us the answer in two scans
 of the data?
 Yes. If we can find the following observations.
-1. If there an oracle that tells us the max-gap is larger than X, then, we can bucket nums into buckets of range: [min, min+X], [min+X, min+2X],  ....
-Because of the max-gap is larger than X, the max-gap cannot come from two numbers from the same bucket. The max-gap must be from two
+1. If there an oracle that tells us the max-gap is at least X, then, we can bucket nums into buckets of range: [min, min+X), [min+X, min+2X),  ....
+Because of the max-gap is at least X, the max-gap cannot come from two numbers from the same bucket. The max-gap must be from two
 non-empty adjacent buckets. Assume the two buckets are b[i] and b[j]. The max-gap is min(b[j]) - max(b[i]).
 
 2. So how do we find X? Notice that all we need from X is that just a lower-bound of the max-gap. Assume there are n numbers,
@@ -46,13 +46,17 @@ func maximumGap(nums []int) int {
 		return 0
 	}
 
-	// TODO: Explain this "+1".
-	x := (max-min)/(n-1) + 1
+	bucketSize := 0
+	if (max-min)%(n-1) == 0 {
+		bucketSize = (max - min) / (n - 1)
+	} else {
+		bucketSize = (max-min)/(n-1) + 1
+	}
 
 	// Step 2: Bucketing
 	buckets := make([][]int, n+1)
 	for _, v := range nums {
-		idx := (v - min) / x
+		idx := (v - min) / bucketSize
 		if len(buckets[idx]) == 0 {
 			buckets[idx] = []int{v, v}
 		} else {

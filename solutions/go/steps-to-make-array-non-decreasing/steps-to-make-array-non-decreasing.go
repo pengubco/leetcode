@@ -1,7 +1,5 @@
 package stepstomakearraynondecreasing
 
-import "container/list"
-
 // https://leetcode.com/problems/steps-to-make-array-non-decreasing/
 func totalSteps(a []int) int {
 	n := len(a)
@@ -31,32 +29,4 @@ func totalSteps(a []int) int {
 		stack = append(stack, i)
 	}
 	return maxStep
-}
-
-func totalStepsTLE(nums []int) int {
-	l := list.New()
-	for _, v := range nums {
-		l.PushBack(v)
-	}
-	rounds := 0
-	nodesToDelete := []*list.Element{}
-	for {
-		for curElement := l.Front(); curElement != nil; curElement = curElement.Next() {
-			if curElement.Prev() == nil {
-				continue
-			}
-			if curElement.Prev().Value.(int) > curElement.Value.(int) {
-				nodesToDelete = append(nodesToDelete, curElement)
-			}
-		}
-		if len(nodesToDelete) == 0 {
-			break
-		}
-		for _, e := range nodesToDelete {
-			l.Remove(e)
-		}
-		nodesToDelete = nodesToDelete[:0]
-		rounds++
-	}
-	return rounds
 }
