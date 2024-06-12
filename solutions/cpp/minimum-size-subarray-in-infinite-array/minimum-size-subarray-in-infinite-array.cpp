@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/description/
 class Solution {
 public:
     int minSizeSubarray(vector<int> &nums, int target) {

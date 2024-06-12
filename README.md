@@ -9,13 +9,14 @@
 
 # Problems
 ## Hard
-|problem|Explanation|Go|Java|
-|--|--|--|--|
+|problem|Explanation|Go|Java|C++|
+|--|--|--|--|--|
 |[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)||[median_of_two_sorted_arrays.go](solutions/go/median-of-two-sorted-arrays/median_of_two_sorted_arrays.go)||
 |[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||[largest_rectangle_in_histogram.go](solutions/go/largest-rectangle-in-histogram/largest_rectangle_in_histogram.go)||
 |[85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)||[maximal_rectangle.go](solutions/go/maximal-rectangle/maximal_rectangle.go)||
 |[164. Maximum Gap](https://leetcode.com/problems/maximum-gap)|[164-maximum-gap.md](solutions/explainations/164-maximum-gap.md)|[maximum_gap.go](solutions/go/maximum-gap/maximum_gap.go)||
 |[174. Dungeon Game](https://leetcode.com/problems/dungeon-game)||[dungeon_game.go](solutions/go/dungeon-game/dungeon_game.go)||
+|[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)||||[find-median-from-data-stream.cpp](solutions/cpp/find-median-from-data-stream/find-median-from-data-stream.cpp)|
 |[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)||[longest_increasing_path_in_a_matrix.go](solutions/go/longest-increasing-path-in-a-matrix/description/longest-increasing-path-in-a-matrix/longest_increasing_path_in_a_matrix.go)||
 |[460. LFU Cache](https://leetcode.com/problems/lfu-cache)|[explanation](solutions/explainations/460-lfu-cache.md)|[lfu_cache.go](solutions/go/lfu-cache/lfu_cache.go)|[LFUCache.java](solutions/java/leetcode/src/main/java/fyi/peng/lfuCache/LFUCache.java)|
 |[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)||[sliding-window-median.go](solutions/go/sliding-window-median/sliding-window-median.go)||
@@ -35,8 +36,8 @@
 |[2509. Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree)||[cycle-length-queries-in-a-tree.go](solutions/go/cycle-length-queries-in-a-tree/cycle-length-queries-in-a-tree.go)||
 
 ## Medium
-|problem|Explanation|Go|Java|
-|--|--|--|--|
+|problem|Explanation|Go|Java|C++|
+|--|--|--|--|--|
 |[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||[longest-substring-without-repeating-characters.go](solutions/go/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.go)|
 |[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||[longest_palindromic_substring.go](solutions/go/longest-palindromic-substring/ongest_palindromic_substring.go)||
 |[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)||[container_with_most_water.go](solutions/go/container-with-most-water/container_with_most_water.go)||
@@ -66,6 +67,7 @@
 |[155. Min Stack](https://leetcode.com/problems/min-stack)||[min_stack.go](solutions/go/min-stack/min_stack.go)|
 |[199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||[binary_tree_right_side_view.go](solutions/go/binary-tree-right-side-view/binary_tree_right_side_view.go)||
 |[212. Word Search II](https://leetcode.com/problems/word-search-ii/)||[word_search_ii.go](solutions/go/word-search-ii/word_search_ii.go)||
+|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||||[kth-largest-element-in-an-array.cpp](solutions/cpp/kth-largest-element-in-an-array/kth-largest-element-in-an-array.cpp)|
 |[224. Basic Calculator](https://leetcode.com/problems/basic-calculator)||[basic_calculator.go](solutions/go/basic-calculator/basic_calculator.go)||
 |[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)||[lowest_common_ancestor_of_a_binary_tree.go](solutions/go/lowest-common-ancestor-of-a-binary-tree/lowest_common_ancestor_of_a_binary_tree.go)||
 |[239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)||[sliding-window-maximum.go](solutions/go/sliding-window-maximum/sliding-window-maximum.go)||
@@ -94,7 +96,7 @@
 |[2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)||[two-best-non-overlapping-events.go](solutions/go/two-best-non-overlapping-events/two-best-non-overlapping-events.go)||
 |[2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs)|[2364-count-number-of-bad-pairs.md](solutions/explainations/2364-count-number-of-bad-pairs.md)|[count_number_of_bad_pairs.go](solutions/go/count-number-of-bad-pairs/count_number_of_bad_pairs.go)||
 |[2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)||[shortest_cycle_in_a_graph.go](solutions/go/shortest-cycle-in-a-graph/shortest_cycle_in_a_graph.go)||
-|[2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|[2875-minimum-size-subarray-in-infinite-array.md](solutions/explainations/2875-minimum-size-subarray-in-infinite-array.md)|[minimum_size_subarray_in_infinite_array.go](solutions/go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go)|[Solution.java](solutions/java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)|
+|[2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|[2875-minimum-size-subarray-in-infinite-array.md](solutions/explainations/2875-minimum-size-subarray-in-infinite-array.md)|[minimum_size_subarray_in_infinite_array.go](solutions/go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go)|[Solution.java](solutions/java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)|[minimum-size-subarray-in-infinite-array.cpp](solutions/cpp/minimum-size-subarray-in-infinite-array/minimum-size-subarray-in-infinite-array.cpp)|
 
 ## Easy
 |problem|Go|Java|
