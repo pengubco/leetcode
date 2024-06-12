@@ -18,6 +18,7 @@
 |[174. Dungeon Game](https://leetcode.com/problems/dungeon-game)||[dungeon_game.go](solutions/go/dungeon-game/dungeon_game.go)||
 |[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)||||[find-median-from-data-stream.cpp](solutions/cpp/find-median-from-data-stream/find-median-from-data-stream.cpp)|
 |[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)||[longest_increasing_path_in_a_matrix.go](solutions/go/longest-increasing-path-in-a-matrix/description/longest-increasing-path-in-a-matrix/longest_increasing_path_in_a_matrix.go)||
+|[330. Patching Array](https://leetcode.com/problems/patching-array)|[330-patching-array.md](solutions/explainations/330-patching-array.md)|||[patching-array.cpp](solutions/cpp/patching-array/patching-array.cpp)|
 |[460. LFU Cache](https://leetcode.com/problems/lfu-cache)|[explanation](solutions/explainations/460-lfu-cache.md)|[lfu_cache.go](solutions/go/lfu-cache/lfu_cache.go)|[LFUCache.java](solutions/java/leetcode/src/main/java/fyi/peng/lfuCache/LFUCache.java)|
 |[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)||[sliding-window-median.go](solutions/go/sliding-window-median/sliding-window-median.go)||
 |[834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)||[sum-of-distances-in-tree.go](solutions/go/sum-of-distances-in-tree/sum-of-distances-in-tree.go)|
