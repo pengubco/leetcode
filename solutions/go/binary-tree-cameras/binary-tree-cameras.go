@@ -18,18 +18,18 @@ type TreeCamera struct {
 }
 
 func (tc *TreeCamera) MinCameraCover(cur *TreeNode, parent *TreeNode) {
-	nodes := []*TreeNode{}
+	children := []*TreeNode{}
 	if cur.Left != nil {
-		nodes = append(nodes, cur.Left)
+		children = append(children, cur.Left)
 	}
 	if cur.Right != nil {
-		nodes = append(nodes, cur.Right)
+		children = append(children, cur.Right)
 	}
-	for _, children := range nodes {
-		tc.MinCameraCover(children, cur)
+	for _, child := range children {
+		tc.MinCameraCover(child, cur)
 	}
 	needsToCoverChildren := false
-	for _, children := range nodes {
+	for _, children := range children {
 		if !tc.covered[children] {
 			needsToCoverChildren = true
 			break
@@ -43,7 +43,7 @@ func (tc *TreeCamera) MinCameraCover(cur *TreeNode, parent *TreeNode) {
 		if parent != nil {
 			tc.covered[parent] = true
 		}
-		for _, children := range nodes {
+		for _, children := range children {
 			tc.covered[children] = true
 		}
 	}

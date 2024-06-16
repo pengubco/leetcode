@@ -50,23 +50,21 @@ func calculateMinimumHP(a [][]int) int {
 }
 
 func smallestValueOnPath(a [][]int) int {
-	min := a[0][0]
-	val := a[0][0]
-	n := len(a)
-	m := len(a[0])
+	minPathVal, val := a[0][0], a[0][0]
+	n, m := len(a), len(a[0])
 	for j := 1; j < m; j++ {
 		val += a[0][j]
-		if val < min {
-			min = val
+		if val < minPathVal {
+			minPathVal = val
 		}
 	}
 	for i := 1; i < n; i++ {
 		val += a[i][m-1]
-		if val < min {
-			min = val
+		if val < minPathVal {
+			minPathVal = val
 		}
 	}
-	return min
+	return minPathVal
 }
 
 func okPath(initialPoint int, a, f [][]int) bool {
@@ -81,11 +79,11 @@ func okPath(initialPoint int, a, f [][]int) bool {
 	f[0][0] = a[0][0] + initialPoint
 	for i := 0; i < n; i++ {
 		for j := 0; j < m; j++ {
-			if i > 0 && f[i-1][j] > 0 && f[i-1][j]+a[i][j] > 0 && f[i-1][j]+a[i][j] > f[i][j] {
-				f[i][j] = f[i-1][j] + a[i][j]
+			if i > 0 && f[i-1][j] > 0 {
+				f[i][j] = max(f[i][j], f[i-1][j]+a[i][j])
 			}
-			if j > 0 && f[i][j-1] > 0 && f[i][j-1]+a[i][j] > 0 && f[i][j-1]+a[i][j] > f[i][j] {
-				f[i][j] = f[i][j-1] + a[i][j]
+			if j > 0 && f[i][j-1] > 0 {
+				f[i][j] = max(f[i][j], f[i][j-1]+a[i][j])
 			}
 		}
 	}

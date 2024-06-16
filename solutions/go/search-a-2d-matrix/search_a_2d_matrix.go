@@ -4,10 +4,10 @@ package searcha2dmatrix
 
 func searchMatrix(matrix [][]int, target int) bool {
 	r, c := len(matrix), len(matrix[0])
-	tranlate := func(idx int) int {
+	translate := func(idx int) int {
 		return matrix[idx/c][idx%c]
 	}
-	return binarySearch(0, r*c-1, tranlate, target)
+	return binarySearch(0, r*c-1, translate, target)
 }
 
 func binarySearch(l, r int, f func(int) int, target int) bool {

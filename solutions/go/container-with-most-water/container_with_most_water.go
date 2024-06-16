@@ -31,17 +31,11 @@ func maxArea(a []int) int {
 	i, j := 0, len(a)-1
 	for i < j {
 		if a[i] < a[j] {
-			area := (j - i) * a[i]
-			if area > result {
-				result = area
-			}
+			result = max(result, (j-i)*a[i])
 			i++
 			continue
 		}
-		area := (j - i) * a[j]
-		if area > result {
-			result = area
-		}
+		result = max(result, (j-i)*a[j])
 		j--
 	}
 	return result

@@ -1,85 +1,62 @@
 package largestrectangleinhistogram
 
-import "errors"
-
 // https://leetcode.com/problems/largest-rectangle-in-histogram/
 
-/*
-f[i]: the max area if heights[i] is the highest bar.
-then answer is max{f[i]}.
+// https://peng.fyi/post/monotonicity-stack/
 
-How do we know heights[i] is the highest bar?
-1. The left side is smaller than or equal to it and
-2. the right side is smaller than or equal to it.
-
-Maintain an increasing stack. When a bar is smaller than the top of stack, calculate
-the area using the top-of-stack as the highest bar.
-
-What if all bars are increasing? Assume there is a bar of 0 height at the end.
-*/
 func largestRectangleArea(heights []int) int {
-	heights = append(heights, 0)
-
-	stack := &Stack{}
-	n := len(heights)
+	l, r := leftBoundary((heights)), rightBoundary(heights)
 	ans := 0
-	for i := 0; i < n; i++ {
-		if stack.IsEmpty() {
-			stack.Push(i)
-			continue
-		}
-
-		for {
-			if stack.IsEmpty() {
-				break
-			}
-			top, _ := stack.Top()
-			if heights[i] > heights[top] {
-				break
-			}
-			stack.Pop()
-			// calculate area using heights[top] as the tallest bar.
-			leftBoundary := -1
-			if !stack.IsEmpty() {
-				leftBoundary, _ = stack.Top()
-			}
-			area := heights[top] * (i - leftBoundary - 1)
-			if ans < area {
-				ans = area
-			}
-		}
-		stack.Push(i)
+	for i, h := range heights {
+		ans = max(ans, h*(r[i]-l[i]+1))
 	}
 	return ans
 }
 
-type Stack struct {
-	a    []int
-	size int
-}
-
-func (s *Stack) Push(x int) {
-	s.a = append(s.a, x)
-	s.size++
-}
-
-func (s *Stack) Top() (int, error) {
-	if s.size > 0 {
-		return s.a[s.size-1], nil
+func leftBoundary(a []int) []int {
+	n := len(a)
+	l := make([]int, n)
+	var stack []int
+	for i := 0; i < n; i++ {
+		for {
+			if len(stack) == 0 {
+				break
+			}
+			if a[stack[len(stack)-1]] < a[i] {
+				break
+			}
+			stack = stack[:len(stack)-1]
+		}
+		if len(stack) == 0 {
+			l[i] = 0
+		} else {
+			l[i] = stack[len(stack)-1] + 1
+		}
+		stack = append(stack, i)
 	}
-	return 0, errors.New("empty stack")
+	return l
 }
 
-func (s *Stack) IsEmpty() bool {
-	return s.size == 0
-}
-
-func (s *Stack) Pop() (int, error) {
-	if s.size == 0 {
-		return 0, errors.New("empty stack")
+func rightBoundary(a []int) []int {
+	n := len(a)
+	r := make([]int, n)
+	var stack []int
+	for i := n - 1; i >= 0; i-- {
+		for {
+			if len(stack) == 0 {
+				break
+			}
+			if a[stack[len(stack)-1]] < a[i] {
+				break
+			}
+			stack = stack[:len(stack)-1]
+		}
+		if len(stack) == 0 {
+			r[i] = n - 1
+		} else {
+			r[i] = stack[len(stack)-1] - 1
+		}
+		stack = append(stack, i)
 	}
-	v := s.a[s.size-1]
-	s.size--
-	s.a = s.a[:s.size]
-	return v, nil
+	return r
 }

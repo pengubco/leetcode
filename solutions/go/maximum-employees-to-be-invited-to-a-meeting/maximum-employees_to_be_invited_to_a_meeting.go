@@ -75,10 +75,3 @@ func maximumInvitations(favorite []int) int {
 
 	return max(maxLongCycle, sumGroupLength)
 }
-
-func max(a, b int) int {
-	if a < b {
-		return b
-	}
-	return a
-}

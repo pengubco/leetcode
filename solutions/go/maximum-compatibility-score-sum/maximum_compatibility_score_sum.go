@@ -25,10 +25,7 @@ func dfs(scores [][]int, state int, d int) int {
 		if (state & (1 << i)) > 0 {
 			continue
 		}
-		temp := scores[i][d] + dfs(scores, state|(1<<i), d+1)
-		if temp > ans {
-			ans = temp
-		}
+		ans = max(ans, scores[i][d]+dfs(scores, state|(1<<i), d+1))
 	}
 	return ans
 }

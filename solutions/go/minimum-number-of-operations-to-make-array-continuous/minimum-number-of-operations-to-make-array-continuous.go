@@ -26,10 +26,7 @@ func minOperations(nums []int) int {
 			break
 		}
 		for j < m && a[j]-a[i]+1 <= n {
-			cnt := j - i + 1
-			if n-cnt < result {
-				result = n - cnt
-			}
+			result = min(result, n-(j-i+1))
 			j++
 		}
 	}

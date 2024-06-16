@@ -22,7 +22,7 @@ func maxSlidingWindow(nums []int, k int) []int {
 
 func rmq(st [][]int, l, r int, log2 []int) int {
 	k := log2[r-l+1]
-	return myMax(st[k][l], st[k][r-(1<<k)+1])
+	return max(st[k][l], st[k][r-(1<<k)+1])
 }
 
 func calcLog2(n int) []int {
@@ -51,16 +51,9 @@ func calcSparseTable(a []int, log2 []int) [][]int {
 
 	for i := 1; i <= k; i++ {
 		for j := 0; j+(1<<i)-1 < n; j++ {
-			st[i][j] = myMax(st[i-1][j], st[i-1][j+(1<<(i-1))])
+			st[i][j] = max(st[i-1][j], st[i-1][j+(1<<(i-1))])
 		}
 	}
 
 	return st
-}
-
-func myMax(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

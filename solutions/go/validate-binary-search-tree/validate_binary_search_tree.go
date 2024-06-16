@@ -2,20 +2,31 @@ package validate_binary_search_tree
 
 // https://leetcode.com/problems/validate-binary-search-tree/
 
-import "math"
-
 func isValidBST(root *TreeNode) bool {
-	return dfs(root, math.MinInt32, math.MaxInt32)
+	valid, _, _ := dfs(root)
+	return valid
 }
 
-func dfs(curr *TreeNode, l, h int) bool {
-	if curr == nil {
-		return true
+func dfs(cur *TreeNode) (bool, int, int) {
+	if cur.Left == nil && cur.Right == nil {
+		return true, cur.Val, cur.Val
 	}
-	if curr.Val < l || curr.Val > h {
-		return false
+	curMinVal, curMaxVal := cur.Val, cur.Val
+	if cur.Left != nil {
+		valid, minVal, maxVal := dfs(cur.Left)
+		if !valid || maxVal >= cur.Val {
+			return false, 0, 0
+		}
+		curMinVal = min(curMinVal, minVal)
 	}
-	return dfs(curr.Left, l, curr.Val-1) && dfs(curr.Right, curr.Val+1, h)
+	if cur.Right != nil {
+		valid, minVal, maxVal := dfs(cur.Right)
+		if !valid || minVal <= cur.Val {
+			return false, 0, 0
+		}
+		curMaxVal = max(curMaxVal, maxVal)
+	}
+	return true, curMinVal, curMaxVal
 }
 
 type TreeNode struct {

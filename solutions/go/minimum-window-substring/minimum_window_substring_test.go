@@ -1,8 +1,9 @@
 package minimum_window_substring
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_minWindow(t *testing.T) {
@@ -11,9 +12,9 @@ func Test_minWindow(t *testing.T) {
 		t      string
 		result string
 	}{
-		//{"ADOBECODEBANC", "ABC", "BANC"},
-		//{"a", "a", "a"},
-		//{"a", "aa", ""},
+		{"ADOBECODEBANC", "ABC", "BANC"},
+		{"a", "a", "a"},
+		{"a", "aa", ""},
 		{"abc", "cba", "abc"},
 	}
 	for _, d := range cases {

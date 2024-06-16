@@ -3,7 +3,7 @@ package basic_calculator
 // https://leetcode.com/problems/basic-calculator/description/
 
 /*
-1. Without parenthesis, it is simple because thare are only two binary operators '+', '-' and one unary operator '-'.
+1. Without parenthesis, it is simple because there are only two binary operators '+', '-' and one unary operator '-'.
 2. So how do we handle parenthesis, it is a problem of smaller size. So we just use recursive.
 */
 func calculate(s string) int {

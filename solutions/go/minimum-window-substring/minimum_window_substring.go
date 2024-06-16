@@ -18,26 +18,26 @@ func minWindow(s string, t string) string {
 		return ""
 	}
 
-	targetCnt := make(map[int8]int)
+	targetCnt := make(map[byte]int)
 	for _, c := range t {
-		targetCnt[int8(c)]++
+		targetCnt[byte(c)]++
 	}
 	var result string
-	cnt := make(map[int8]int)
-	cnt[int8(s[0])]++
+	cnt := make(map[byte]int)
+	cnt[s[0]]++
 	for i, j := 0, 0; ; {
 		if !contains(cnt, targetCnt) {
 			j++
 			if j >= n {
 				break
 			}
-			cnt[int8(s[j])]++
+			cnt[s[j]]++
 			continue
 		}
 		if result == "" || len(result) > j-i+1 {
 			result = s[i : j+1]
 		}
-		cnt[int8(s[i])]--
+		cnt[s[i]]--
 		i++
 		if i > n-m {
 			break
@@ -46,7 +46,7 @@ func minWindow(s string, t string) string {
 	return result
 }
 
-func contains(curr, target map[int8]int) bool {
+func contains(curr, target map[byte]int) bool {
 	if len(curr) < len(target) {
 		return false
 	}
