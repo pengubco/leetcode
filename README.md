@@ -16,8 +16,10 @@
 |[85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)|[Go](solutions/go/maximal-rectangle/maximal_rectangle.go)|
 |[164. Maximum Gap](https://leetcode.com/problems/maximum-gap)|[Explanation](solutions/explanations/164-maximum-gap.md);  [Go](solutions/go/maximum-gap/maximum_gap.go)||
 |[174. Dungeon Game](https://leetcode.com/problems/dungeon-game)|[Go](solutions/go/dungeon-game/dungeon_game.go)|
+|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[Go](solutions/go/longest-increasing-subsequence/longest-increasing-subsequence.go)|
 |[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[Go](solutions/go/longest-increasing-path-in-a-matrix/description/longest-increasing-path-in-a-matrix/longest_increasing_path_in_a_matrix.go)|
 |[330. Patching Array](https://leetcode.com/problems/patching-array)|[Explanation](solutions/explanations/330-patching-array.md); [C++](solutions/cpp/patching-array/patching-array.cpp)|
+|[450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|TODO|
 |[460. LFU Cache](https://leetcode.com/problems/lfu-cache)|[Explanation](solutions/explanations/4`60-lfu-cache.md); [Go](solutions/go/lfu-cache/lfu_cache.go); [Java](solutions/java/leetcode/src/main/java/fyi/peng/lfuCache/LFUCache.java)|
 |[834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|[Go](solutions/go/sum-of-distances-in-tree/sum-of-distances-in-tree.go)|
 |[857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|[Go](solutions/go/minimum-cost-to-hire-k-workers/minimum-cost-to-hire-k-workers.go)|
@@ -71,56 +73,54 @@
 |[224. Basic Calculator](https://leetcode.com/problems/basic-calculator)|[Go](solutions/go/basic-calculator/basic_calculator.go)|
 |[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[Go](solutions/go/lowest-common-ancestor-of-a-binary-tree/lowest_common_ancestor_of_a_binary_tree.go)|
 |[239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Go](solutions/go/sliding-window-maximum/sliding-window-maximum.go)|
-|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|[240-search-a-2d-matrix-ii.md](solutions/explanations/240-search-a-2d-matrix-ii.md)|[search_a_2d_matrix_ii.go](solutions/go/search-a-2d-matrix-ii/search_a_2d_matrix_ii.go)||
-|[264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)||[264-ugly-number-ii.md](solutions/explanations/264-ugly-number-ii.md)|[ugly-number-ii.go](solutions/go/ugly-number-ii/ugly-number-ii.go)||
-|[275. H-Index II](https://leetcode.com/problems/h-index-ii)||[h_index_ii.go](solutions/go/h-index-ii/h_index_ii.go)||
+|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|[Explanation](solutions/explanations/240-search-a-2d-matrix-ii.md); [Go](solutions/go/search-a-2d-matrix-ii/search_a_2d_matrix_ii.go)|
+|[264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Explanation](solutions/explanations/264-ugly-number-ii.md); [Go](solutions/go/ugly-number-ii/ugly-number-ii.go)|
+|[275. H-Index II](https://leetcode.com/problems/h-index-ii)|[Go](solutions/go/h-index-ii/h_index_ii.go)|
 |[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[C++](solutions/cpp/find-median-from-data-stream/find-median-from-data-stream.cpp)|
-|[331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|||[VerifyPreorderSerializationOfABinaryTree.java](solutions/java/leetcode/src/main/java/fyi/peng/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.java)|
-|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)||[sum_of_two_integers.go](solutions/go/sum-of-two-integers/sum_of_two_integers.go)||
-|[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)||[combination-sum-iv.go](solutions/go/combination-sum-iv/combination-sum-iv.go)|
-|[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)||[insert_delete_getrandom_o1.go](solutions/go/insert-delete-getrandom-o1/insert_delete_getrandom_o1.go)||
-|[394. Decode String](https://leetcode.com/problems/decode-string)|||[DecodeString.java](solutions/java/leetcode/src/main/java/fyi/peng/decodeString/DecodeString.java)|
-|[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||[longest-repeating-character-replacement.go](solutions/go/longest-repeating-character-replacement/longest-repeating-character-replacement.go)|
-|[437. Path Sum III](https://leetcode.com/problems/path-sum-iii)|[437-path-sum-iii.md](solutions/explanations/437-path-sum-iii.md)|[path-sum-iii.go](solutions/go/path-sum-iii/path-sum-iii.go)||
-|[450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|||
-|[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)||[minimum_number_of_arrows_to_burst_balloons.go](solutions/go/minimum-number-of-arrows-to-burst-balloons/minimum_number_of_arrows_to_burst_balloons.go)||
+|[331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.java)|
+|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)|[Go](solutions/go/sum-of-two-integers/sum_of_two_integers.go)|
+|[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[Go](solutions/go/combination-sum-iv/combination-sum-iv.go)|
+|[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Go](solutions/go/insert-delete-getrandom-o1/insert_delete_getrandom_o1.go)|
+|[394. Decode String](https://leetcode.com/problems/decode-string)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/decodeString/DecodeString.java)|
+|[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Go](solutions/go/longest-repeating-character-replacement/longest-repeating-character-replacement.go)|
+|[437. Path Sum III](https://leetcode.com/problems/path-sum-iii)|[Explanation](solutions/explanations/437-path-sum-iii.md); [Go](solutions/go/path-sum-iii/path-sum-iii.go)|
+|[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|[Go](solutions/go/minimum-number-of-arrows-to-burst-balloons/minimum_number_of_arrows_to_burst_balloons.go)|
 |[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)|[Go](solutions/go/sliding-window-median/sliding-window-median.go)|
-|[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)||[redundant_connection.go](solutions/go/redundant-connection/redundant_connection.go)||
-|[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)||[insert-into-a-binary-search-tree.go](solutions/go/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.go)|
-|[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|||[CheapestFlightsWithinKStops.java](solutions/java/leetcode/src/main/java/fyi/peng/cheapestFlightsWithinKStops/CheapestFlightsWithinKStops.java)|
-|[926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)||[flip_string_to_monotone_increasing.go](solutions/go/flip-string-to-monotone-increasing/flip_string_to_monotone_increasing.go)||
-|[974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)||[subarray_sums_divisible_by_k.go](solutions/go/subarray-sums-divisible-by-k/subarray_sums_divisible_by_k.go)||
-|[978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray)||[longest-turbulent-subarray.go](solutions/go/longest-turbulent-subarray/longest-turbulent-subarray.go)||
-|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)|[979-distribute-coins-in-binary-tree.md](solutions/explanations/979-distribute-coins-in-binary-tree.md)|[distribute-coins-in-binary-tree.go](solutions/go/distribute-coins-in-binary-tree/distribute-coins-in-binary-tree.go)||
+|[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[Go](solutions/go/redundant-connection/redundant_connection.go)|
+|[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)|[Go](solutions/go/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.go)|
+|[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/cheapestFlightsWithinKStops/CheapestFlightsWithinKStops.java)|
+|[926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)|[Go](solutions/go/flip-string-to-monotone-increasing/flip_string_to_monotone_increasing.go)|
+|[974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Go](solutions/go/subarray-sums-divisible-by-k/subarray_sums_divisible_by_k.go)|
+|[978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray)|[Go](solutions/go/longest-turbulent-subarray/longest-turbulent-subarray.go)|
+|[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)|[Explanation](solutions/explanations/979-distribute-coins-in-binary-tree.md); [Go](solutions/go/distribute-coins-in-binary-tree/distribute-coins-in-binary-tree.go)|
 |[1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)||[max-consecutive-ones-iii.go](solutions/go/max-consecutive-ones-iii/max-consecutive-ones-iii.go)||
-|[1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)|[1235-maximum-profit-in-job-scheduling.md](solutions/explanations/1235-maximum-profit-in-job-scheduling.md)||[Solution.java](solutions/java/leetcode/src/main/java/fyi/peng/maximumProfitInJobScheduling/Solution.java)|
-|[1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)||[custom_stack.go](solutions/go/design-a-stack-with-increment-operation/custom_stack.go)||
-|[2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)||[two-best-non-overlapping-events.go](solutions/go/two-best-non-overlapping-events/two-best-non-overlapping-events.go)||
-|[2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs)|[2364-count-number-of-bad-pairs.md](solutions/explanations/2364-count-number-of-bad-pairs.md)|[count_number_of_bad_pairs.go](solutions/go/count-number-of-bad-pairs/count_number_of_bad_pairs.go)||
-|[2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)||[shortest_cycle_in_a_graph.go](solutions/go/shortest-cycle-in-a-graph/shortest_cycle_in_a_graph.go)||
-|[2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|[2875-minimum-size-subarray-in-infinite-array.md](solutions/explanations/2875-minimum-size-subarray-in-infinite-array.md)|[minimum_size_subarray_in_infinite_array.go](solutions/go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go)|[Solution.java](solutions/java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)|[minimum-size-subarray-in-infinite-array.cpp](solutions/cpp/minimum-size-subarray-in-infinite-array/minimum-size-subarray-in-infinite-array.cpp)|
+|[1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)|[Explanation](solutions/explanations/1235-maximum-profit-in-job-scheduling.md); [Java](solutions/java/leetcode/src/main/java/fyi/peng/maximumProfitInJobScheduling/Solution.java)|
+|[1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Go](solutions/go/design-a-stack-with-increment-operation/custom_stack.go)|
+|[2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)|[Go](solutions/go/two-best-non-overlapping-events/two-best-non-overlapping-events.go)|
+|[2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs)|[Explanation](solutions/explanations/2364-count-number-of-bad-pairs.md); [Go](solutions/go/count-number-of-bad-pairs/count_number_of_bad_pairs.go)|
+|[2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)|[Go](solutions/go/shortest-cycle-in-a-graph/shortest_cycle_in_a_graph.go)|
+|[2875. Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/)|[Explanation](solutions/explanations/2875-minimum-size-subarray-in-infinite-array.md); [Go](solutions/go/minimum-size-subarray-in-infinite-array/minimum_size_subarray_in_infinite_array.go); [Java](solutions/java/leetcode/src/main/java/fyi/peng/minimumSizeSubarrayInInfiniteArry/Solution.java)|[C++](solutions/cpp/minimum-size-subarray-in-infinite-array/minimum-size-subarray-in-infinite-array.cpp)|
 
 ## Easy
 |problem|Go|Java|
 |--|--|--|
-|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[add_two_numbers.go](solutions/go/add-two-numbers/add_two_numbers.go)|||
-|[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[integer_to_roman.go](solutions/go/integer-to-roman/integer_to_roman.go)|
-|[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)||
+|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[Go](solutions/go/add-two-numbers/add_two_numbers.go)|
+|[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Go](solutions/go/integer-to-roman/integer_to_roman.go)|
+|[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Go](solutions/go/roman-to-integer/roman_to_integer.go)|
 |[71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[simplify_path.go](solutions/go/simplify-path/simplify_path.go)|
-|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[maximum-depth-of-binary-tree.go](solutions/go/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go)||
-|[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[balanced-binary-tree.go](solutions/go/balanced-binary-tree/balanced-binary-tree.go)||
-|[113. Path Sum II](https://leetcode.com/problems/path-sum-ii)|[path-sum-ii.go](solutions/go/path-sum-ii/path-sum-ii.go)||
-|[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[evaluate_reverse_polish_notation.go](solutions/go/evaluate-reverse-polish-notation/evaluate_reverse_polish_notation.go)||
-|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[kth_smallest_element_in_a_bst.go](solutions/go/kth-smallest-element-in-a-bst/kth_smallest_element_in_a_bst.go)||
-|[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[delete_node_in_a_linked_list.go](solutions/go/delete-node-in-a-linked-list/delete_node_in_a_linked_list.go)|
-|[274. H-Index](https://leetcode.com/problems/h-index)|[h_index.go](solutions/go/h-index/h_index.go)||
-|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[]()||
-|[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[continuous_subarray_sum.go](solutions/go/continuous-subarray-sum/continuous_subarray_sum.go)||
-|[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[subarray_sum_equals_k.go](solutions/go/subarray-sum-equals-k/subarray_sum_equals_k.go)||
-|[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[interval-list-intersections.go](solutions/go/interval-list-intersections/interval-list-intersections.go)||
-|[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|[number-of-operations-to-make-network-connected.go](solutions/go/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)||
-|[2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations)|[find-missing-observations.go](solutions/go/find-missing-observations/find-missing-observations.go)||
-|[2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[maximum-matching-of-players-with-trainers.go](solutions/go/maximum-matching-of-players-with-trainers/maximum-matching-of-players-with-trainers.go)||
+|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](solutions/go/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go)|
+|[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Go](solutions/go/balanced-binary-tree/balanced-binary-tree.go)|
+|[113. Path Sum II](https://leetcode.com/problems/path-sum-ii)|[Go](solutions/go/path-sum-ii/path-sum-ii.go)|
+|[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[Go](solutions/go/evaluate-reverse-polish-notation/evaluate_reverse_polish_notation.go)|
+|[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Go](solutions/go/kth-smallest-element-in-a-bst/kth_smallest_element_in_a_bst.go)|
+|[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Go](solutions/go/delete-node-in-a-linked-list/delete_node_in_a_linked_list.go)|
+|[274. H-Index](https://leetcode.com/problems/h-index)|[Go](solutions/go/h-index/h_index.go)|
+|[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[Go](solutions/go/continuous-subarray-sum/continuous_subarray_sum.go)|
+|[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Go](solutions/go/subarray-sum-equals-k/subarray_sum_equals_k.go)|
+|[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[Go](solutions/go/interval-list-intersections/interval-list-intersections.go)|
+|[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|[Go](solutions/go/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)|
+|[2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations)|[Go](solutions/go/find-missing-observations/find-missing-observations.go)|
+|[2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)|[maximum-matching-of-players-with-trainers.go](solutions/go/maximum-matching-of-players-with-trainers/maximum-matching-of-players-with-trainers.go)|
 
 # How to run code?
 ## Go

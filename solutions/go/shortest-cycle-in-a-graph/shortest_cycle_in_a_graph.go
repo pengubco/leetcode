@@ -10,29 +10,27 @@ import "math"
 So we can try each edge (u,v) and calculate the length of the path between u and v, using BFS.
 */
 func findShortestCycle(n int, edges [][]int) int {
-	e := len(edges)
+	m := len(edges)
 	adj := make([][]int, n)
 	for _, e := range edges {
-		adj[e[0]] = append(adj[e[0]], e[1])
-		adj[e[1]] = append(adj[e[1]], e[0])
+		u, v := e[0], e[1]
+		adj[u] = append(adj[u], v)
+		adj[v] = append(adj[v], u)
 	}
-	validNodeCnt := 0
+	nodeWithEdge := 0
 	for i := 0; i < n; i++ {
 		if len(adj[i]) > 0 {
-			validNodeCnt++
+			nodeWithEdge++
 		}
 	}
-	if e < validNodeCnt {
+	if m < nodeWithEdge {
 		return -1
 	}
 
 	shortestPath := math.MaxInt
 	for _, e := range edges {
 		u, v := e[0], e[1]
-		path := bfs(u, v, adj, shortestPath)
-		if path < shortestPath {
-			shortestPath = path
-		}
+		shortestPath = min(shortestPath, bfs(u, v, adj, shortestPath))
 	}
 	if shortestPath == math.MaxInt {
 		return -1

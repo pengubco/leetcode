@@ -1,29 +1,31 @@
 package h_index_ii
 
+import (
+	"slices"
+	"sort"
+)
+
 // https://leetcode.com/problems/h-index-ii/
 
 /*
 Same idea with the "H Index". However, the size is bigger and we need to use binary search.
 */
 func hIndex(citations []int) int {
-	cnt := make(map[int]int)
-	max := citations[0]
-	for _, v := range citations {
-		cnt[v]++
-		if v > max {
-			max = v
-		}
-	}
-	for i := max - 1; i > 0; i-- {
-		cnt[i] += cnt[i+1]
-	}
-	result := binarySearch(0, max, func(i int) bool {
-		return cnt[i] >= i
+	maxCitation := slices.Max(citations)
+	result := binarySearch(0, maxCitation, func(i int) bool {
+		return count(citations, i) >= i
 	})
 	if result == -1 {
 		return 0
 	}
 	return result
+}
+
+// a is non-decreasing. return number of elements larger than or equal to the given target.
+func count(a []int, target int) int {
+	return len(a) - sort.Search(len(a), func(i int) bool {
+		return a[i] >= target
+	})
 }
 
 // With condition "if f(l)=true, then f(l-1)=true" "if f(l) is false, then f(l+1) is false.

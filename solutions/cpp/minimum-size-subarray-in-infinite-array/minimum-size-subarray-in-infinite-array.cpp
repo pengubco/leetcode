@@ -27,15 +27,9 @@ public:
         if (iter == sumToIndex.end()) {
           continue;
         }
-        int size = i - iter->second;
-        if (size < minSize) {
-          minSize = size;
-        }
+        minSize = min(minSize, i - iter->second);
       }
-      if (minSize == INT_MAX) {
-        return -1;
-      }
-      return minSize + copies * n;
+      return (minSize == INT_MAX) ? -1 :  minSize + copies * n;
     };
 };
 

@@ -32,9 +32,7 @@ func minSizeSubarray(nums []int, target int) int {
 			}
 		}
 		if j, ok := psumToIndex[sum-target]; ok {
-			if minSize > i-j {
-				minSize = i - j
-			}
+			minSize = min(minSize, i-j)
 		}
 	}
 	if minSize == math.MaxInt {

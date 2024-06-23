@@ -21,13 +21,3 @@ func nthUglyNumber(n int) int {
 	}
 	return f[n-1]
 }
-
-func min(nums ...int) int {
-	result := nums[0]
-	for i := 1; i < len(nums); i++ {
-		if nums[i] < result {
-			result = nums[i]
-		}
-	}
-	return result
-}

@@ -1,6 +1,10 @@
 package longestturbulentsubarray
 
 // https://leetcode.com/problems/longest-turbulent-subarray
+
+// f[i][0]: longest turbulent array ends at a[i] and a[i] > a[i-1]1
+// f[i][1]: longest turbulent array ends at a[i] and a[i] < a[i-1]1
+
 func maxTurbulenceSize(a []int) int {
 	n := len(a)
 	f := make([][]int, n)
@@ -24,11 +28,4 @@ func maxTurbulenceSize(a []int) int {
 		ans = max(ans, f[i][1])
 	}
 	return ans
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

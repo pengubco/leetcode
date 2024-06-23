@@ -29,11 +29,3 @@ func minFlipsMonoIncr(s string) int {
 	}
 	return min(f[n-1][0], f[n-1][1])
 }
-
-// only use this if it's before Go 1.21
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}

@@ -28,17 +28,3 @@ func intervalIntersection(firstList [][]int, secondList [][]int) [][]int {
 	}
 	return result
 }
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}

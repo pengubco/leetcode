@@ -1,8 +1,9 @@
 package h_index_ii
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_hIndex(t *testing.T) {
@@ -10,6 +11,7 @@ func Test_hIndex(t *testing.T) {
 		citations []int
 		result    int
 	}{
+		{[]int{1, 2}, 1},
 		{[]int{3, 0, 6, 1, 5}, 3},
 		{[]int{0, 0, 0}, 0},
 		{[]int{1}, 1},

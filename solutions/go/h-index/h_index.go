@@ -12,16 +12,16 @@ Observations.
 func hIndex(citations []int) int {
 	cnt := make(map[int]int)
 	n := len(citations)
-	min, max := citations[0], citations[0]
+	minCitation, maxCitation := citations[0], citations[0]
 	for _, v := range citations {
 		cnt[v]++
-		if v < min {
-			min = v
-		} else if v > max {
-			max = v
+		if v < minCitation {
+			minCitation = v
+		} else if v > maxCitation {
+			maxCitation = v
 		}
 	}
-	for i := max - 1; i >= 0; i-- {
+	for i := maxCitation - 1; i >= minCitation; i-- {
 		cnt[i] += cnt[i+1]
 	}
 	for i := n; i > 0; i-- {

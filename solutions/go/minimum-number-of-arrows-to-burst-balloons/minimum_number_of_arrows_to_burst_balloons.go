@@ -10,7 +10,7 @@ of a point maintaining the optimal solution.
 2. For an interval A[x,y], whether we should x or y?
 	2.1. If no other interval overlaps with A, it doesn't matter whether we choose x or y.
 	2.2. If all intervals is within [x,y], e.g. [x-2, y-1]. Then we should not choose either x or y.
-    2.3. If intervals overlap on the right side. e.g. [y-4, y+10], then we should choose y.
+  2.3. If intervals overlap on the right side. e.g. [y-4, y+10], then we should choose y.
 	2.4. If intervals overlap on the left side. e.g. [x-5, x+1], then we choose x.
 
 How may we simplify 4 cases?
@@ -21,10 +21,7 @@ sort in descending order of the left side, this remove case 2.2.
 
 func findMinArrowShots(intervals [][]int) int {
 	sort.Slice(intervals, func(i, j int) bool {
-		if intervals[i][1] != intervals[j][1] {
-			return intervals[i][1] < intervals[j][1]
-		}
-		return intervals[i][0] > intervals[j][0]
+		return intervals[i][1] < intervals[j][1]
 	})
 	n := len(intervals)
 	result := 0

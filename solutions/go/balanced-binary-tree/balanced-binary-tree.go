@@ -24,13 +24,6 @@ func dfs(cur *TreeNode) (int, bool) {
 	return max(lHeight, rHeight) + 1, true
 }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
