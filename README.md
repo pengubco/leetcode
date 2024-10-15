@@ -85,6 +85,7 @@
 |[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Go](solutions/go/longest-repeating-character-replacement/longest-repeating-character-replacement.go)|
 |[437. Path Sum III](https://leetcode.com/problems/path-sum-iii)|[Explanation](solutions/explanations/437-path-sum-iii.md); [Go](solutions/go/path-sum-iii/path-sum-iii.go)|
 |[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|[Go](solutions/go/minimum-number-of-arrows-to-burst-balloons/minimum_number_of_arrows_to_burst_balloons.go)|
+|[456. 132 Pattern](https://leetcode.com/problems/132-pattern)|[Go](solutions/go/132-pattern/132-pattern.go)|
 |[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median)|[Go](solutions/go/sliding-window-median/sliding-window-median.go)|
 |[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[Go](solutions/go/redundant-connection/redundant_connection.go)|
 |[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)|[Go](solutions/go/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.go)|
