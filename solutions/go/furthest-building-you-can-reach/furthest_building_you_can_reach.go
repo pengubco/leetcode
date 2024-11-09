@@ -1,75 +1,63 @@
 package furthestbuildingyoucanreach
 
-// https://leetcode.com/problems/furthest-building-you-can-reach/
-
 import "container/heap"
+
+// https://leetcode.com/problems/furthest-building-you-can-reach/
 
 func furthestBuilding(heights []int, bricks int, ladders int) int {
 	n := len(heights)
-	h := make(Heap, 0)
-
+	diffHeap := make(IntHeap, 0)
 	i := 1
-	for ; i < n; i++ {
-		d := heights[i] - heights[i-1]
-		if d <= 0 {
+	for i < n {
+		diff := heights[i] - heights[i-1]
+		if diff <= 0 {
+			i++
 			continue
 		}
-
+		// use bricks as much as possible
+		if bricks >= diff {
+			bricks -= diff
+			heap.Push(&diffHeap, diff)
+			i++
+			continue
+		}
+		// we have to use a ladder
 		if ladders == 0 {
-			if bricks >= d {
-				bricks -= d
-				continue
-			}
 			break
 		}
-
-		if len(h) < ladders {
-			heap.Push(&h, d)
-			continue
-		}
-
-		// cannot use ladders for all climbs. choose the smallest climb to use bricks.
-		if h[0] >= d {
-			if bricks >= d {
-				bricks -= d
-				continue
-			} else {
-				return i - 1
-			}
-		}
-		v := h[0]
-		heap.Pop(&h)
-		if bricks >= v {
-			bricks -= v
-			heap.Push(&h, d)
-			continue
+		// use the ladder for the largest diff
+		if len(diffHeap) > 0 && diffHeap[0] > diff {
+			bricks += diffHeap[0]
+			heap.Pop(&diffHeap)
+			ladders--
 		} else {
-			return i - 1
+			ladders--
+			i++
 		}
 	}
-
 	return i - 1
 }
 
-type Heap []int
+type IntHeap []int
 
-func (h Heap) Len() int {
+func (h IntHeap) Len() int {
 	return len(h)
 }
 
-func (h Heap) Swap(i, j int) {
+// We want a max heap
+func (h IntHeap) Less(i, j int) bool {
+	return h[i] > h[j]
+}
+
+func (h IntHeap) Swap(i, j int) {
 	h[i], h[j] = h[j], h[i]
 }
 
-func (h Heap) Less(i, j int) bool {
-	return h[i] < h[j]
-}
-
-func (h *Heap) Push(x any) {
+func (h *IntHeap) Push(x any) {
 	*h = append(*h, x.(int))
 }
 
-func (h *Heap) Pop() any {
+func (h *IntHeap) Pop() any {
 	n := len(*h)
 	ret := (*h)[n-1]
 	*h = (*h)[:n-1]
