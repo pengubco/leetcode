@@ -79,9 +79,10 @@
 |[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[Go](solutions/go/lowest-common-ancestor-of-a-binary-tree/lowest_common_ancestor_of_a_binary_tree.go)|
 |[239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Go](solutions/go/sliding-window-maximum/sliding-window-maximum.go)|
 |[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|[Explanation](solutions/explanations/240-search-a-2d-matrix-ii.md); [Go](solutions/go/search-a-2d-matrix-ii/search_a_2d_matrix_ii.go)|
-|[264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Explanation](solutions/explanations/264-ugly-number-ii.md); [Go](solutions/go/ugly-number-ii/ugly-number-ii.go)|
+|[264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Go](solutions/go/ugly-number-ii/ugly-number-ii.go)|
 |[275. H-Index II](https://leetcode.com/problems/h-index-ii)|[Go](solutions/go/h-index-ii/h_index_ii.go)|
 |[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[C++](solutions/cpp/find-median-from-data-stream/find-median-from-data-stream.cpp)|
+|[313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/description/)|[Go](solutions/go/super-ugly-number/super_ugly_number.go)|
 |[331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.java)|
 |[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)|[Go](solutions/go/sum-of-two-integers/sum_of_two_integers.go)|
 |[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[Go](solutions/go/combination-sum-iv/combination-sum-iv.go)|
