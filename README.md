@@ -123,6 +123,7 @@
 |[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Go](solutions/go/kth-smallest-element-in-a-bst/kth_smallest_element_in_a_bst.go)|
 |[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Go](solutions/go/delete-node-in-a-linked-list/delete_node_in_a_linked_list.go)|
 |[274. H-Index](https://leetcode.com/problems/h-index)|[Go](solutions/go/h-index/h_index.go)|
+|[306. Additive Number](https://leetcode.com/problems/additive-number)|[Go](solutions/go/additive-number/additive_number.go)||
 |[523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)|[Go](solutions/go/continuous-subarray-sum/continuous_subarray_sum.go)|
 |[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Go](solutions/go/subarray-sum-equals-k/subarray_sum_equals_k.go)|
 |[729. My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[Go](solutions/go/my-calendar-i/my_calendar_i.go)||
