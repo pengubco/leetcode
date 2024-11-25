@@ -84,6 +84,7 @@
 |[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[C++](solutions/cpp/find-median-from-data-stream/find-median-from-data-stream.cpp)|
 |[313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/description/)|[Go](solutions/go/super-ugly-number/super_ugly_number.go)|
 |[331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.java)|
+|[365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/)|[Go](solutions/go/water-and-jug-problem/water-and-jug-problem.go)||
 |[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)|[Go](solutions/go/sum-of-two-integers/sum_of_two_integers.go)|
 |[377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)|[Go](solutions/go/combination-sum-iv/combination-sum-iv.go)|
 |[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Go](solutions/go/insert-delete-getrandom-o1/insert_delete_getrandom_o1.go)|
@@ -103,6 +104,7 @@
 |[979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[Explanation](solutions/explanations/979-distribute-coins-in-binary-tree.md); [Go](solutions/go/distribute-coins-in-binary-tree/distribute-coins-in-binary-tree.go)|
 |[1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Go](solutions/go/max-consecutive-ones-iii/max-consecutive-ones-iii.go)||
 |[1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[Go](solutions/go/number-of-enclaves/number_of_enclaves.go)||
+|[1036. Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)|[Go](solutions/go/escape-a-large-maze/escape-a-large-maze.go)||
 |[1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)|[Explanation](solutions/explanations/1235-maximum-profit-in-job-scheduling.md); [Java](solutions/java/leetcode/src/main/java/fyi/peng/maximumProfitInJobScheduling/Solution.java)|
 |[1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Go](solutions/go/design-a-stack-with-increment-operation/custom_stack.go)|
 |[2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)|[Go](solutions/go/two-best-non-overlapping-events/two-best-non-overlapping-events.go)|
