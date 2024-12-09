@@ -25,6 +25,7 @@
 |[330. Patching Array](https://leetcode.com/problems/patching-array)|[Explanation](solutions/explanations/330-patching-array.md); [C++](solutions/cpp/patching-array/patching-array.cpp)|
 |[450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|TODO|
 |[460. LFU Cache](https://leetcode.com/problems/lfu-cache)|[Explanation](solutions/explanations/4`60-lfu-cache.md); [Go](solutions/go/lfu-cache/lfu_cache.go); [Java](solutions/java/leetcode/src/main/java/fyi/peng/lfuCache/LFUCache.java)|
+|[632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)|[Go](solutions/go/smallest-range-covering-elements-from-k-lists/smallest-range-covering-elements-from-k-lists.go)|
 |[731. My Calendar II](https://leetcode.com/problems/my-calendar-ii)|[Go](solutions/go/my-calendar-ii/my_calendar_ii.go)||
 |[834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|[Go](solutions/go/sum-of-distances-in-tree/sum-of-distances-in-tree.go)|
 |[857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|[Go](solutions/go/minimum-cost-to-hire-k-workers/minimum-cost-to-hire-k-workers.go)|
