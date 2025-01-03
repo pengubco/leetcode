@@ -99,6 +99,7 @@
 |[701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree)|[Go](solutions/go/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.go)|
 |[732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/myCalendarIII/MyCalendarThree.java)||
 |[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Java](solutions/java/leetcode/src/main/java/fyi/peng/cheapestFlightsWithinKStops/CheapestFlightsWithinKStops.java)|
+|[815. Bus Routes](https://leetcode.com/problems/bus-routes/)|[Go](solutions/go/bus-routes/bus-routes.go)|
 |[926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)|[Go](solutions/go/flip-string-to-monotone-increasing/flip_string_to_monotone_increasing.go)|
 |[974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Go](solutions/go/subarray-sums-divisible-by-k/subarray_sums_divisible_by_k.go)|
 |[978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray)|[Go](solutions/go/longest-turbulent-subarray/longest-turbulent-subarray.go)|
